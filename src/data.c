@@ -3,8 +3,10 @@
 #include <math.h>
 #include <string.h>
 #include <SDL2/SDL.h>
-#include "data.h"
-#include "DataTypes.h"
+#include "headers/initialize.h"
+#include "headers/data.h"
+#include "headers/DataTypes.h"
+#include "headers/drawFunctions.h"
 //#include "initialize.h"
 
 char *__strtok_r (char *s, const char *delim, char **save_ptr)
