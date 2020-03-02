@@ -2,9 +2,10 @@
 #include <string.h>
 #include <stdbool.h>
 #include <SDL2/SDL.h>
-#include "data.h"
-#include "DataTypes.h"
-#include "initialize.h"
+#include "headers/initialize.h"
+#include "headers/data.h"
+#include "headers/DataTypes.h"
+#include "headers/drawFunctions.h"
 
 //SDL DEFINITIONS
 //The window we'll be rendering to
